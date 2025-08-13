@@ -41,8 +41,8 @@ send us a pull request.
 Author
 =
 
-* ShellBear (https://github.com/darkboss1)
-Blogspot (http://serialkey.top)
+* darkboss1 Ak47 (https://github.com/darkboss1)
+Website (http://serialkey.top)
 
 Contributing
 =
