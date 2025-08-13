@@ -27,9 +27,9 @@ Instalation
 
 Dependencies will be automatically installed running the install script. 
 
-    git clone https://github.com/darkboss1/darkboss1-man-in-the-middle-attack-tools.git
-    cd flushy && sudo bash install.sh
-    sudo bash merijan.sh
+    # git clone https://github.com/darkboss1/darkboss1-man-in-the-middle-attack-tools.git
+    # cd darkboss1-man-in-the-middle-attack-tools && sudo bash install.sh
+    # sudo bash merijan.sh
 
 Known Issues
 =
