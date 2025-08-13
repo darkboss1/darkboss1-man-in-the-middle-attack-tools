@@ -29,7 +29,7 @@ sudo apt-get install build-essential ruby-dev libpcap-dev
 apt-get update
 apt-get install bettercap
 echo
-echo -e $(print_good 'Successfully installed bettercap ! You can now run : "sudo bash flushy.sh"')
+echo -e $(print_good 'Successfully installed bettercap ! You can now run : "sudo bash merijan.sh"')
 echo
 elif [[ "$OSTYPE" == "darwin"* ]]; then
 if which nmap >/dev/null; then
@@ -40,7 +40,7 @@ fi
 if [ -d "bettercap" ]; then
 echo -e $(print_good "Bettercap is already installed")
 echo
-echo -e $(print_good 'You can now run : "sudo bash flushy.sh"')
+echo -e $(print_good 'You can now run : "sudo bash merijan.sh"')
 echo
 elif [ ! -d "bettercap" ]; then
 echo -e $(print_error 'Bettercap is not installed')
@@ -53,7 +53,7 @@ cd bettercap
 gem build bettercap.gemspec
 sudo gem install bettercap*.gem
 echo
-echo -e $(print_good 'Successfully installed bettercap ! You can now run : "sudo bash flushy.sh"')
+echo -e $(print_good 'Successfully installed bettercap ! You can now run : "sudo bash merijan.sh"')
 echo
 else 
 echo -e $(print_error '"Git" is not installed')
@@ -65,7 +65,7 @@ else
 if which bettercap >/dev/null; then
 echo -e $(print_good "Bettercap is already installed")
 echo
-echo -e $(print_good 'You can now run : "sudo bash flushy.sh"')
+echo -e $(print_good 'You can now run : "sudo bash merijan.sh"')
 echo
 else 
 echo -e $(print_error 'Bettercap is not installed')
